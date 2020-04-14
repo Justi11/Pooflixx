@@ -92,6 +92,22 @@ public class Pooflix {
 
         temp5.episodio.add(ep2);
 
+        Websodio wb = new Websodio();
+        wb.numero = 2;
+        wb.nombre = "A new day";
+        wb.duracion = 2;
+        wb.link = "http.//wb.com";
+
+        temp5.episodio.add(wb);
+
+        Websodio wb2 = new Websodio();
+        wb2.numero = 3;
+        wb2.nombre = "Family matters";
+        wb2.duracion = 20;
+        wb2.link = "http.//wb.com";
+
+        temp5.episodio.add(wb2);
+
         walkingDead.temporadas.add(temp5);
 
         

@@ -16,7 +16,7 @@ public class App {
 
         Episodio elTop;
 
-        elTop = laMejorTemporada.getEpisodio(16);
+        elTop = laMejorTemporada.getEpisodio(2);
 
         elTop.reproducir();
     }
