@@ -9,13 +9,14 @@ public class App {
 
         miPooflix.inicializarCatalogo();
 
-        Serie bb = miPooflix.buscarSerie("Breaking Bad");
+    
+        Serie bb = miPooflix.buscarSerie(" Walking Dead ");
 
         Temporada laMejorTemporada = bb.getTemporada(5);
 
         Episodio elTop;
 
-        elTop = laMejorTemporada.getEpisodio(7);
+        elTop = laMejorTemporada.getEpisodio(16);
 
         elTop.reproducir();
     }
