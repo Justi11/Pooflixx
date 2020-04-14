@@ -6,7 +6,7 @@ public class Websodio extends Episodio {
     //redefinicion//
     @Override
     public void reproducir(){
-        System.out.println("Reproduciendo websodio " + nombre  +   link );
+        System.out.println("Reproduciendo websodio " + nombre  +"de la url "+   link );
 
     }
 
